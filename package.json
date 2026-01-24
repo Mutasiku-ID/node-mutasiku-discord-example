@@ -1,0 +1,35 @@
+{
+  "name": "mutasiku-discord-bot-example",
+  "version": "1.0.0",
+  "description": "Example Discord bot using Mutasiku SDK for payments",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "mutasiku",
+    "discord",
+    "bot",
+    "payment",
+    "qris"
+  ],
+  "author": "Mutasiku",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "mutasiku-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
