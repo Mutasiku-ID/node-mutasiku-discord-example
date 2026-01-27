@@ -1,5 +1,7 @@
 # Mutasiku Discord Bot Example
 
+![Build Status](https://github.com/Mutasiku-ID/node-mutasiku-discord-example/actions/workflows/ci.yml/badge.svg)
+
 Example Discord bot using [mutasiku-sdk](https://github.com/Mutasiku-ID/node-mutasiku-sdk) for payments.
 
 ## Features
